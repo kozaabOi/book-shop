@@ -1,0 +1,38 @@
+[
+  {
+    "name": "TEST",
+    "email": "ALMA@MAG.BANAN",
+    "address": "ALMA UTCA BANAN SZAM",
+    "cartItems": [
+      {
+        "name": "To Kill a Mockingbird",
+        "quantity": 3,
+        "price": 38.97
+      },
+      {
+        "name": "1984",
+        "quantity": 3,
+        "price": 31.5
+      }
+    ],
+    "timestamp": "2024-01-04T10:23:14.881Z"
+  },
+  {
+    "name": "Test Elek",
+    "email": "testelek@test.com",
+    "address": "Test utca 23 4/5",
+    "cartItems": [
+      {
+        "name": "1984",
+        "quantity": 2,
+        "price": 21
+      },
+      {
+        "name": "Pride and Prejudice",
+        "quantity": 2,
+        "price": 19.98
+      }
+    ],
+    "timestamp": "2024-01-04T10:31:41.574Z"
+  }
+]

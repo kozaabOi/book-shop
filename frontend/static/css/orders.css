@@ -1,0 +1,56 @@
+* {
+  color: #fff;
+}
+
+html {
+  background-color: #4b2121;
+}
+
+a.bi.bi-book {
+  padding: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+}
+
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  display: grid;
+  grid-gap: 20px;
+}
+
+.order {
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order p {
+  margin: 8px 0;
+}
+
+.order ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.order li {
+  margin-bottom: 5px;
+}
+
+.cart-item {
+  background-color: #f9f9f9;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.card {
+  width: auto;
+  border: 1px solid rgb(249, 249, 249);
+  padding: 10px;
+  border-radius: 10px;
+}

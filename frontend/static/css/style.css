@@ -1,0 +1,141 @@
+body {
+  background-image: url("https://r4.wallpaperflare.com/wallpaper/767/594/322/books-library-bokeh-depth-of-field-wallpaper-faf5e15af1d783e25449d6ec4bca4f82.jpg");
+  background-color: #cccccc;
+}
+
+#root {
+  padding-top: 102px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.bookCard {
+  background-color: #ffffffbb;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.bookCard h1 {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.bookCard h2 {
+  font-size: 1em;
+  color: black;
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+.bookCard h3 {
+  font-size: 0.9em;
+  color: black;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+.bookCard h4 {
+  font-size: 0.9em;
+  color: black;
+  margin-bottom: 3px;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity button {
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+}
+
+.quantity button.plus:hover {
+  background-color: #0e6d12;
+}
+
+.quantity button.minus {
+  background-color: #b90606;
+}
+
+.quantity button.minus:hover {
+  background-color: #810000;
+}
+
+.quantity button:hover {
+  color: #0e6d12;
+}
+
+.quantity .counter {
+  padding: 5px 10px;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.quantity button i.bi {
+  font-size: 20px;
+}
+
+button.addToCart {
+  background-color: inherit;
+  color: black;
+}
+
+img.bookCover {
+  width: auto;
+  max-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+div.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a.bi.bi-cart-fill,
+a.bi.bi-archive-fill {
+  color: black;
+  font-size: 40px;
+}
+
+a.bi.bi-cart-fill:hover,
+a.bi.bi-archive-fill:hover {
+  color: #ffffff;
+}
+
+div.header {
+  font-size: 30px;
+  background-color: #4b2121;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+  text-shadow: rgb(255, 255, 255) 0px 0 3px;
+  margin-bottom: 20px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  z-index: 1000;
+  box-shadow: 0px 1px 13px white;
+}
