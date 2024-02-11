@@ -49,7 +49,7 @@ app.get("/book", (req, res) => {
 })
 
 app.get("/orderd", (req, res) => {
-  res.sendFile(path.join(__dirname, "./data/orders.json"))
+  res.sendFile(path.join(__dirname, "./data/orders2.json"))
 })
 
 app.post('/cart/orders', (req, res) => {
